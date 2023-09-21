@@ -1,0 +1,165 @@
+body  {
+    margin: 0;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+} 
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container 
+===================================*/
+
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header 
+===================================*/
+
+.header {
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    align-items: center;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #515369;
+}
+
+
+
+/* Nav 
+===================================*/
+
+.nav {
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nav__link {
+    margin-left: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    opacity: .75;
+    transition: opacity .2s;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+
+
+/* Intro 
+===================================*/
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 750px;
+    padding-top: 100px;
+
+    background: #31344e
+     url(images/header/headerfon.jpg) center no-repeat;
+    box-sizing: cover;
+}
+
+.intro__inner {
+    text-align: center;
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 970px;
+}
+
+.intro__title {
+    margin: 0;
+
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.1;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.intro__subtitle {
+    font-size: 22px;
+
+    color: #fff;
+    margin-top: 38px;
+    
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+
+
+/* BTN 
+===================================*/
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    margin-top: 76px;
+
+    border-radius: 3px;
+    border: 0;
+
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+
+    font-family: 'Raleway', sans-serif;
+
+    transition: .2s;
+}
+
+.btn--red {
+    background-color: #e84545;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #dd3434;
+}
